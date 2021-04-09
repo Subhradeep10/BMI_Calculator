@@ -13,18 +13,70 @@ class _InputPageState extends State<InputPage> {
         appBar: AppBar(
           title: Center(child: Text('BMI CALCULATOR')),
         ),
-        body: Row(
+        body: Column(
           children: [
+            Row(
+              children: [
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.all(10.0),
+                    height: 175.0,
+                    width: 100.0,
+                    decoration: BoxDecoration(
+                      color: Colors.blueGrey,
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.all(10.0),
+                    height: 175.0,
+                    width: 100.0,
+                    decoration: BoxDecoration(
+                      color: Colors.blueGrey,
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
+                ),
+              ],
+            ),
             Expanded(
               child: Container(
                 margin: EdgeInsets.all(10.0),
-                height: 200.0,
-                width: 100.0,
+                height: 100.0,
+                width: double.infinity,
                 decoration: BoxDecoration(
                   color: Colors.blueGrey,
                   borderRadius: BorderRadius.circular(10.0),
                 ),
               ),
+            ),
+            Row(
+              children: [
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.all(10.0),
+                    height: 175.0,
+                    width: 100.0,
+                    decoration: BoxDecoration(
+                      color: Colors.blueGrey,
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.all(10.0),
+                    height: 175.0,
+                    width: 100.0,
+                    decoration: BoxDecoration(
+                      color: Colors.blueGrey,
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ],
         ));
