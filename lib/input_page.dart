@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class InputPage extends StatefulWidget {
   @override
@@ -19,6 +20,26 @@ class _InputPageState extends State<InputPage> {
               children: [
                 Expanded(
                   child: Container(
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Column(
+                        children: [
+                          Icon(
+                            FontAwesomeIcons.mars,
+                            color: Colors.white,
+                            size: 90,
+                          ),
+                          SizedBox(
+                            height: 15.0,
+                          ),
+                          Text(
+                            'Male',
+                            style:
+                                TextStyle(fontSize: 25.0, color: Colors.white),
+                          )
+                        ],
+                      ),
+                    ),
                     margin: EdgeInsets.all(10.0),
                     height: 175.0,
                     width: 100.0,
@@ -30,6 +51,26 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: Container(
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Column(
+                        children: [
+                          Icon(
+                            FontAwesomeIcons.venus,
+                            color: Colors.white,
+                            size: 90,
+                          ),
+                          SizedBox(
+                            height: 15.0,
+                          ),
+                          Text(
+                            'Female',
+                            style:
+                                TextStyle(fontSize: 25.0, color: Colors.white),
+                          )
+                        ],
+                      ),
+                    ),
                     margin: EdgeInsets.all(10.0),
                     height: 175.0,
                     width: 100.0,
